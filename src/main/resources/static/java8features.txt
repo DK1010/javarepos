@@ -1,0 +1,29 @@
+Java 8 Features:
+----------------
+
+1. Lambda Expressions: A concise way to represent anonymous functions, allowing for functional programming style.
+2. Stream API: Provides a powerful way to process collections of data in a functional style, enabling operations like filtering, mapping, and reducing.
+3. Default Methods: Allows interfaces to have default implementations for methods, enabling backward compatibility and multiple inheritance of behavior.
+4. Optional: A container object that may or may not contain a non-null value, helping to avoid null pointer exceptions.
+5. Date and Time API: A new set of classes in the java.time package that provides a more comprehensive and flexible way to handle date and time.
+6. Method References: A shorthand syntax for referring to methods or constructors, making code more readable.
+7. Functional Interfaces: An interface with a single abstract method, which can be implemented using lambda expressions or method references.
+8. Parallel Streams: Allows for parallel processing of collections, improving performance on multi-core processors.
+9. Type Annotations: Enables annotations to be applied to types, providing more information about the code and improving type safety.
+10. Nashorn JavaScript Engine: A new JavaScript engine that allows for embedding JavaScript code within Java applications, enabling interoperability between the two languages.
+11. CompletableFuture: A class that provides a way to write asynchronous, non-blocking code, allowing for better performance and scalability.
+12. Repeatable Annotations: Allows the same annotation to be applied multiple times to the same declaration or type use.
+13. Base64 Encoding and Decoding: Provides utility methods for encoding and decoding data in Base64 format, which is commonly used for data transmission.
+14. Type Inference: Improved type inference for generic instance creation, allowing for more concise code when creating instances of generic classes.
+15. Parallel Array Sorting: A new method in the Arrays class that allows for parallel sorting of arrays, improving performance on large datasets.
+16. Collectors: A utility class that provides various implementations of the Collector interface, which can be used to accumulate elements into collections, summarize data, and more.
+17. Stream API Enhancements: Additional methods in the Stream interface, such as takeWhile, dropWhile, and iterate, providing more flexibility in stream processing.
+18. CompletableFuture Enhancements: New methods in the CompletableFuture class, such as completeAsync and orTimeout, providing more options for handling asynchronous computations.
+
+Detailed Usage of Predicates, Functions, Suppliers, and Consumers:
+------------------------------------------------------------------
+1. Predicates: A functional interface that represents a boolean-valued function of one argument. It is commonly used for filtering and matching operations in streams.
+
+
+
+

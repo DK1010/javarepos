@@ -14,5 +14,8 @@ public class Java8Features {
         names.stream()
              .filter(name -> name.startsWith("A"))
              .forEach(System.out::println);
+        List<String> emp= Arrays.asList("Deepak","Rohan","Tenzin","Rohit");
+        emp.stream().filter(emp1 ->emp1.startsWith("R")).forEach(System.out::println);
+
     }
 }
