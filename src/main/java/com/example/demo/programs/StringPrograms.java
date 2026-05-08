@@ -1,6 +1,7 @@
 package com.example.demo.programs;
 
 import java.util.HashMap;
+import java.util.StringJoiner;
 
 public class StringPrograms {
 
@@ -25,7 +26,7 @@ public class StringPrograms {
 
     public static void main(String[] args) {
         //String and Character Methods in Java:
-        System.out.println("------String and Character Methods in Java testsss-----STARTS:");
+        System.out.println("------String and Character and Array Methods in Java testsss-----STARTS:");
         String str1= "JAVA DEVELOPER LIFE IS GOOD";
         System.out.println(str1.length());
         System.out.println(str1.charAt(6));
@@ -40,8 +41,21 @@ public class StringPrograms {
         System.out.println(str1.lastIndexOf('e'));
         System.out.println(str1.lastIndexOf("GOOD"));
 
+        //String joiner to join with delimer(:, etc);
+        StringJoiner sj= new StringJoiner(":");
+        sj.add("JAVA");
+        sj.add("Developer");
+        sj.add("Life");
+        System.out.println(sj);// 20th index will be the starting point of the search:
 
-        System.out.println("------String and Character Methods in Java testsss-----ENDS:");
+        Character c1= '2';
+        System.out.println(c1.charValue()); // returns the value of the character as a char data type
+        System.out.println("------String and Character and Array Methods in Java testsss-----ENDS:");
+
+        String[] strArray= new String[]{"JAVA","DEVELOPER","LIFE","IS","GOOD"};
+        System.out.println(strArray.length);
+        System.out.println(strArray[1]);
+        System.out.println(strArray[0].toCharArray());
 
 
         // Check if a string is a palindrome
