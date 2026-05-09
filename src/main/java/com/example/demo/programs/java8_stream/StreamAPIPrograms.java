@@ -10,7 +10,11 @@ public class StreamAPIPrograms {
 
        // str=str.replace(" ","");
         //write logic to print unique characters and their count in the string
-        System.out.println("\n----------------------------");
+        System.out.println("\n----------character occurence------------------");
+
+        str.chars().filter(ch -> ch != ' ').distinct().forEach(c -> System.out.println((char)c +
+                " : " + str.chars().filter(ch -> ch == c)));
+
         str.chars().filter(ch -> ch != ' ').distinct().forEach(c -> System.out.println((char)c +
                 " : " + str.chars().filter(ch -> ch == c).count()));
 
